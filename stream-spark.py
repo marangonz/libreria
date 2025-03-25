@@ -27,7 +27,7 @@ def post_spark_job(user, repo, job, token):
     # Display the response in the app
     st.write(response)
 
-st.title("Spark & streamlit")
+st.title("Maria Arango A00839515 SEMANA TEC RETO")
 
 st.header("spark-submit Job")
 
@@ -40,7 +40,7 @@ def get_spark_results(url_results):
 
 
 github_user  =  st.text_input('Github user', value='Marangonz')
-github_repo  =  st.text_input('Github repo', value='gitLabs')
+github_repo  =  st.text_input('Github repo', value='libreria')
 spark_job    =  st.text_input('Spark job', value='spark')
 github_token =  st.text_input('Github token', value='XXX')
 
