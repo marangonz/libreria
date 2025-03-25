@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
 import json
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     spark = SparkSession\
         .builder\
         .appName("books")\
